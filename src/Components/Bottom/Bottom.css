@@ -1,0 +1,72 @@
+.Set__Image{
+    display: flex;
+}
+
+@media only screen and (max-width: 600px){
+    .Set__Image{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+.Images__Styles{
+    margin: 10px 60px 10px 60px;
+}
+
+.Image__Info{
+    color: white;
+    margin: -80px 0 20px 0;
+    word-break: keep-all;
+    font-weight: 200;
+    width: 150px;
+}
+
+@media only screen and (max-width: 600px){
+    .Image__Desk{
+     display: none;
+    }
+}
+
+@media only screen and (min-width: 601px){
+    .Image__Desk{
+    display: contents;
+    }
+}
+
+@media only screen and (min-width: 601px){
+    .Image__Change{
+       display: none;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .Image__Change{
+       display: contents;
+    }
+}
+
+@media only screen and (min-width: 601px){
+    .Bot__Button1{
+        display: contents;
+    }
+}
+@media only screen and (max-width: 600px){
+    .Bot__Button1{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 601px){
+    .Bot__Button2{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .Bot__Button2{
+        display: contents;
+    }
+}
+

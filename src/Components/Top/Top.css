@@ -1,0 +1,103 @@
+.Navbar{
+    background-image: url('../../images/desktop/image-hero.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover
+}
+
+@media only screen and (max-width: 600px){
+  .Navbar{
+    background-image: url('../../images/mobile/image-hero.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;object-fit: cover;
+  }
+}
+
+
+.Top__Heading{
+  font-weight: 700;
+  margin: 25px 0 0 130px;
+}
+@media only screen and (max-width: 600px){
+  .Top__Heading{
+    margin: 0px 0 0 0px;
+  }
+}
+
+.Paragraph__Top{
+    color: white;
+    margin-left: 180px;
+    margin-top: 110px;
+    padding: 20px 140px 20px 50px;
+  border: 2px solid white;
+  width: 700px;
+  text-align: left;
+  font-weight: 300;
+  font-size: 70px;
+  word-spacing: 20px;
+}
+
+@media only screen and (max-width: 600px){
+ .Paragraph__Top{
+    margin: 20px 0 0 20px;
+    font-weight: 400;
+    width: 300px;
+    font-size: 40px;
+    margin: 100px 0 0 30px;
+   }
+}
+
+
+.List__Items{
+  list-style-type: none;
+  font-weight: 600;
+  display: flex;
+  margin-top: 25px;
+}
+
+@media only screen and (max-width: 600px){
+  .List__Items{
+    display: none;
+  }
+}
+
+
+.Top__Icon{
+  display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+ 
+  .Top__Icon{
+  display: contents;
+  margin: 20px 0 0 0 
+  }
+
+}
+
+.Navbar__Mobile{
+  background-color: black;
+  height: 100vh;
+  color: white;
+}
+
+
+@media only screen and (min-width: 601px){
+  .Navbar__Mobile{
+    display: none;
+  }
+}
+
+.Nav__ItemsMobile{
+  list-style-type:none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 100px 0 0 25px;
+  font-weight: 200;
+  font-size: 30px;
+}

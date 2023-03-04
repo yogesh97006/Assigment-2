@@ -1,0 +1,57 @@
+.Desk__Image{
+    margin: 120px 0 0 160px;
+    width: 800px;
+    height: 500px;
+
+}
+
+
+@media only screen and (min-width: 601px){
+.Mid__Info{
+  width: 500px; 
+  background-color: white;
+  padding: 50px;
+  margin:-100px 0 0 780px;
+}}
+
+@media only screen and (max-width: 600px){
+    .Mid__Info{
+        width: 300px;
+        margin: 0 0 0 20px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .Desk__Image{
+        display: none;
+    }
+}
+
+.Mobile__Image{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+.Mobile__Image{
+    width: 180px;
+   display: contents;
+   padding: 100px;
+
+}
+}
+
+@media only screen and (min-width: 601px){
+.Mid__Paragraph{
+    color: gray;
+    word-break: keep-all;
+}
+    }
+
+
+@media only screen and (max-width: 600px){
+    .Mid__Paragraph{
+        color: gray;
+        word-wrap: break-word;
+        
+    }
+}
